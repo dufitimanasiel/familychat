@@ -31,8 +31,7 @@ const io = new Server(server, {
   cors: {
     origin: [
       "http://localhost:3000",
-      "http://localhost:3001",
-      "http://localhost:3002",
+      "https://familychat-5v77crcyc-asielduf-7594s-projects.vercel.app"
     ],
     methods: ["GET", "POST"],
     credentials: true,
